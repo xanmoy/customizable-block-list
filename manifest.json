@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Focus Mode",
+  "version": "1.0",
+  "description": "Stay focused while browsing the web by blocking distracting websites and limiting time spent on certain sites.",
+  "permissions": ["storage", "tabs", "alarms"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon.webp",
+      "48": "images/icon.webp",
+      "128": "images/icon.webp"
+    }
+  },
+  "icons": {
+    "16": "images/icon.webp",
+    "48": "images/icon.webp",
+    "128": "images/icon.webp"
+  }
+}
